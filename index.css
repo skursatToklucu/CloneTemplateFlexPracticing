@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 1.25rem;
+  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+.container {
+  background-image: url(../CleanBlogCloneCSS/img/home-bg.jpg);
+  background-size: cover;
+  height: 800px;
+  padding: 1cm;
+}
+.nav-items {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-items ul {
+  display: flex;
+}
+.nav-items ul li {
+  display: flex;
+  font-weight: 600;
+  font-size: 28px;
+  margin-right: 40px;
+}
+.nav-items ul li:hover {
+  color: burlywood;
+  cursor: pointer;
+}
+.middle-item {
+  height: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-item h1 {
+  font-size: 100px;
+  margin-bottom: 0;
+}
+
+.main-article-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  text-align: left;
+}
+
+.main-article-container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+.article-body p {
+  font-size: 1.125rem;
+  font-style: italic;
+
+  color: #6c757d;
+}
+
+.article-body p a {
+  text-decoration: none;
+  color: black;
+}
+
+.article-body p a:hover {
+  color: #0085a1;
+}
+.btn-primary {
+  border: none;
+  color: white;
+  background-color: #0085a1;
+  padding: 20px;
+  flex-direction: column-reverse;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #007189;
+}
+.container-btn {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer span svg {
+  margin-left: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.footer span svg:hover {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
